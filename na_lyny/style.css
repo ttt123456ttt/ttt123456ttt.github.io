@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+}
+
+.container {
+	max-width: 1280px;
+	margin: auto;
+}
+
+/* header */
+
+header {
+	background-color: #222;
+}
+
+.menu {
+	display: flex;
+	padding: 54px 160px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu_left {
+	display: flex;
+	align-items: center;
+}
+
+.menu_list {
+	display: flex;
+	list-style-type: none;
+}
+
+.menu_list li {
+	margin-right: 30px;
+}
+
+.menu_list a {
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #D4D4D4;
+}
+
+.mail {
+	margin-right: 24px;
+}
+
+.contacts {
+	display: flex;
+	align-items: flex-start;
+}
+
+.header_bottom {
+	display: flex;
+	padding: 24px 160px 121px 282px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_bottom h1 {
+	font-family: Courier New;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0;
+	text-align: left;
+	color: #ffffff;
+}
+
+.header_bottom p {
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0;
+	text-align: left;
+	color: #d4d4d4;
+	margin: 32px 0 54px 0;
+}
+
+.header_bottom button {
+	height: 50px;
+	width: 240px;
+	border-radius: 25px;
+	background: #FFCB06;
+	box-shadow: none;
+	border: 0;
+	display: flex;
+	padding: 17px 22px 17px 38px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_bottom span {
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0;
+	text-align: left;
+	text-transform: uppercase;
+	color: #000000;
+
+}
+
+.header_bottom button img {
+	width: 19px;
+	height: 16px;
+}
+
+.header_content {
+	max-width: 254px;
+}
+
+/* advantages */
+
+.advantages {
+	background-color: #131313;
+}
+
+.advantages_container {
+	display: flex;
+	justify-content: space-between;
+	padding: 85px 165px 89px 165px;
+}
+
+.advantages article {
+	width: 170px;
+}
+
+.advantages p {
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #D4D4D4;
+}
+
+/*content*/
+
+.content_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_top_text{
+    width: 440px;
+}
+
+.content_container{
+	padding: 80px 165px 125px 165px; 
+}
+
+.content h2{
+    font-family: Courier New;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 27px;
+    margin: top;
+    margin-bottom: 44px; 
+}
+
+.content p{
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 17px;
+}
